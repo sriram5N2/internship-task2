@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+    color:white;
+}
+nav ul{
+    display: flex;
+     justify-content: center;
+}
+nav ul li {
+   list-style: none;
+   margin: 0 23px;
+}
+nav ul li a{
+  text-decoration: none;
+   color: white;
+ }
+ nav ul li a:hover{
+     color:yellow;
+     font-size: 1.5rem;
+   }
+.left{
+    font-size: 1.9rem;
+}
+.right{
+    font-size: 0.8rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+.firstsection > div{
+    width:35%;
+}
+.leftsection{
+    width: 35%;
+    margin-left: 7%;
+    margin-top: 7%;
+    font-size: 3rem;
+}
+.rightsection{
+    width: 29%;
+}
+.rightsection img{
+   width:68%;
+   
+}
+.Yellow{
+    color:yellow;
+}
+.skill{
+    background-color: black;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center; 
+}
+.card i{
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    margin: 25px 0px;
+
+}
+h4{
+    color: hsl(340, 94%, 44%);
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.para p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.linked i:hover{
+    font-size: 40px;
+    color: white;
+}
+.facebook i:hover{
+    font-size: 40px;
+}
+.insta i:hover{
+    font-size: 40px;
+    
+}
+
